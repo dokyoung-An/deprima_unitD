@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.8/20017
 // Filename: ???? ??D.ggsk
-// Generated 2024-01-26T10:13:09
+// Generated 2024-01-26T13:23:31
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_roomchoice', 2, false, { ignoreInState: 0  });
@@ -13342,6 +13342,9 @@ function pano2vrSkin(player,base) {
 			}
 		}
 		me._d_type.logicBlock_backgroundcolor();
+		me._d_type.onclick=function (e) {
+			player.openUrl("https:\/\/magical-kitsune-263021.netlify.app","");
+		}
 		me._d_type.onmouseover=function (e) {
 			me.elementMouseOver['d_type']=true;
 			me._d_type.logicBlock_backgroundcolor();
