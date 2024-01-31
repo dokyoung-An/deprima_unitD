@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.8/20017
 // Filename: ???? ??D.ggsk
-// Generated 2024-01-31T09:36:51
+// Generated 2024-01-31T10:31:24
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_roomchoice', 2, false, { ignoreInState: 0  });
@@ -12982,7 +12982,7 @@ function pano2vrSkin(player,base) {
 		}
 		me.__74a0.logicBlock_visible();
 		me.__74a0.onclick=function (e) {
-			player.openUrl("https:\/\/superb-kheer-b84f8e.netlify.app","");
+			player.openUrl("https:\/\/superb-kheer-b84f8e.netlify.app","_self");
 		}
 		me.__74a0.ggUpdatePosition=function (useTransition) {
 		}
@@ -13343,7 +13343,7 @@ function pano2vrSkin(player,base) {
 		}
 		me._d_type.logicBlock_backgroundcolor();
 		me._d_type.onclick=function (e) {
-			player.openUrl("https:\/\/magical-kitsune-263021.netlify.app","");
+			player.openUrl("https:\/\/magical-kitsune-263021.netlify.app","_self");
 		}
 		me._d_type.onmouseover=function (e) {
 			me.elementMouseOver['d_type']=true;
@@ -13459,7 +13459,7 @@ function pano2vrSkin(player,base) {
 		}
 		me._c_type.logicBlock_backgroundcolor();
 		me._c_type.onclick=function (e) {
-			player.openUrl("https:\/\/funny-croissant-03ab5e.netlify.app","");
+			player.openUrl("https:\/\/funny-croissant-03ab5e.netlify.app","_self");
 		}
 		me._c_type.onmouseover=function (e) {
 			me.elementMouseOver['c_type']=true;
@@ -13575,7 +13575,7 @@ function pano2vrSkin(player,base) {
 		}
 		me._b_type.logicBlock_backgroundcolor();
 		me._b_type.onclick=function (e) {
-			player.openUrl("https:\/\/snazzy-trifle-cc18e4.netlify.app","");
+			player.openUrl("https:\/\/snazzy-trifle-cc18e4.netlify.app","_self");
 		}
 		me._b_type.onmouseover=function (e) {
 			me.elementMouseOver['b_type']=true;
@@ -13692,7 +13692,7 @@ function pano2vrSkin(player,base) {
 		}
 		me._a_type.logicBlock_backgroundcolor();
 		me._a_type.onclick=function (e) {
-			player.openUrl("https:\/\/resilient-beignet-29b48c.netlify.app\/","");
+			player.openUrl("https:\/\/resilient-beignet-29b48c.netlify.app\/","_self");
 		}
 		me._a_type.onmouseover=function (e) {
 			me.elementMouseOver['a_type']=true;
