@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.8/20017
 // Filename: ???? ??D.ggsk
-// Generated 2024-01-31T11:23:16
+// Generated 2024-02-01T14:55:43
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_roomchoice', 2, false, { ignoreInState: 0  });
@@ -6384,7 +6384,7 @@ function pano2vrSkin(player,base) {
 		el.ggId="Map 1";
 		el.ggDx=0;
 		el.ggDy=-15;
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggParameter={ rx:0,ry:0,a:0,sx:0.75,sy:0.75,def:'' };
 		el.ggVisible=false;
 		el.className="ggskin ggskin_map ";
 		el.ggType='map';
@@ -6401,6 +6401,7 @@ function pano2vrSkin(player,base) {
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
+		el.style.transform=parameterToTransform(el.ggParameter);
 		me._map_11.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
@@ -6468,7 +6469,7 @@ function pano2vrSkin(player,base) {
 		el.ggId="Map 2";
 		el.ggDx=0;
 		el.ggDy=-15;
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggParameter={ rx:0,ry:0,a:0,sx:0.75,sy:0.75,def:'' };
 		el.ggVisible=false;
 		el.className="ggskin ggskin_map ";
 		el.ggType='map';
@@ -6485,6 +6486,7 @@ function pano2vrSkin(player,base) {
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
+		el.style.transform=parameterToTransform(el.ggParameter);
 		me._map_21.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
@@ -7419,7 +7421,7 @@ function pano2vrSkin(player,base) {
 		el.ggId="Map 1-\ubaa8\ubc14\uc77c";
 		el.ggDx=0;
 		el.ggDy=0;
-		el.ggParameter={ rx:0,ry:0,a:0,sx:0.9,sy:0.9,def:'' };
+		el.ggParameter={ rx:0,ry:0,a:0,sx:0.8,sy:0.8,def:'' };
 		el.ggVisible=false;
 		el.className="ggskin ggskin_map ";
 		el.ggType='map';
@@ -7504,7 +7506,7 @@ function pano2vrSkin(player,base) {
 		el.ggId="Map 2-\ubaa8\ubc14\uc77c";
 		el.ggDx=0;
 		el.ggDy=0;
-		el.ggParameter={ rx:0,ry:0,a:0,sx:0.9,sy:0.9,def:'' };
+		el.ggParameter={ rx:0,ry:0,a:0,sx:0.8,sy:0.8,def:'' };
 		el.ggVisible=false;
 		el.className="ggskin ggskin_map ";
 		el.ggType='map';
